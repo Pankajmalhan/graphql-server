@@ -5,7 +5,8 @@
   "author": "Samer Buna",
   "license": "ISC",
   "scripts": {
-    "start": "nodemon lib/index"
+    "start": "nodemon lib/index",
+    "start1": "nodemon acedmind/index"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/reactjscamp/name-contests#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "dataloader": "^1.4.0",
     "express": "^4.16.3",
     "express-graphql": "^0.6.12",
@@ -28,8 +30,5 @@
     "lodash": "^4.17.11",
     "mongodb": "^2.1.18",
     "pg": "^6.0.1"
-  },
-  "devDependencies": {
-    "nodemon": "^1.9.2"
   }
 }
