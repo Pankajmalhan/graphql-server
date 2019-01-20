@@ -12,6 +12,7 @@ const path=require("path")
 const bodyParser=require('body-parser');
 const { buildSchema}=require('graphql');
 
+console.log("pankaj");
 app.use(bodyParser.json())
 
 app.use('/graphql',graphqlHTTP({
